@@ -12,7 +12,7 @@ export const questions1 =[
     },
     {
         id: 2,
-        question: "Kokį HTML semantinį elementą parinktumėte tinklapio naujienai aprašyti??",
+        question: "Kokį HTML semantinį elementą parinktumėte tinklapio naujienai aprašyti?",
         answers: [
             {text: "<news>", isCorrect: false},
             {text: "<article>", isCorrect: true},
@@ -33,7 +33,7 @@ export const questions1 =[
     },
     {
         id: 4,
-        question: "Kuris selektorius yra teisingas norint stilių taikyti tik pdf failams??",
+        question: "Kuris selektorius yra teisingas norint stilių taikyti tik pdf failams?",
         answers: [
             {text: "a[href >='.pdf']", isCorrect: false},
             {text: "a[href $='.pdf']", isCorrect: false},
@@ -54,7 +54,7 @@ export const questions1 =[
     },
     {
         id: 6,
-        question: "Kaip kintamajam antraste, kuriam priskirtas elementas HTML elementas header pakeisti fono spalvą naudojant JavaScript?",
+        question: "Kaip kintamajam antraste, kuriam priskirtas HTML elementas header pakeisti fono spalvą naudojant JavaScript?",
         answers: [
             {text: "antraste.style.background-color = 'tomato';", isCorrect: false},
             {text: "antraste.style.backgroundColor = 'tomato';", isCorrect: true},
@@ -74,7 +74,7 @@ export const questions1 =[
     },
     {
         id: 8,
-        question: "Kaip padaryt nuorodą į tėvinį html elementą A su tikslu aprašyti pseudo klasės :hover formatavimą?",
+        question: "Kaip padaryt nuorodą į tėvinį html elementą a su tikslu aprašyti pseudo klasės :hover formatavimą?",
         answers: [
             {text: "extend a:hover", isCorrect: false},
             {text: "into a:hover", isCorrect: false},
@@ -131,7 +131,7 @@ export const questions1 =[
         answers: [
             {text: "‘Use strict’ naudojimas apsaugo neleisdamas atlikti tam tikrų veiksmų ir suteikia daugiau išimčių", isCorrect: false},
             {text: "Užkerta kelią klaidoms kai atliekami palyginti “nesaugūs” veiksami", isCorrect: false},
-            {text: "išjungia painias ir blogai apgalvotas funkcijas", isCorrect: false},
+            {text: "Išjungia painias ir blogai apgalvotas funkcijas", isCorrect: false},
             {text: "Visi atsakymai tesisingi", isCorrect: true},
             {text: "Nėra teisingo atsakymo", isCorrect: false}
         ]
@@ -142,7 +142,7 @@ export const questions1 =[
         answers: [
             {text: "Kodas rašomas pakopomis", isCorrect: false},
             {text: "Pakopos nusako, kuri taisyklė yra svarbesnė ir bus taikoma elementui", isCorrect: true},
-            {text: "Įjungos CSS pakopas, galima naudoti !important", isCorrect: false},
+            {text: "Įjungus CSS pakopas, galima naudoti !important", isCorrect: false},
             {text: "Teisingo atsakymo nėra", isCorrect: false}
         ]
     },
@@ -324,7 +324,7 @@ export const questions2 = [
     },
     {
         id: 11,
-        question: ". let kiekis = 10;  \n" +
+        question: "let kiekis = 10;  \n" +
             "console.log(kiekis++); \n" +
             "Ką išves konsolėje?",
         answers: [
