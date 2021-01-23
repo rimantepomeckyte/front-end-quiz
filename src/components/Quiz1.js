@@ -1,7 +1,8 @@
 import React from 'react';
 import {questions1} from "../data/questions";
+import ProgressBar from "./ProgressBar";
 
-const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
+const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick, setColor}) => {
 
     return (
         <>
@@ -25,6 +26,7 @@ const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
                         <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0"
                                 onClick={() => handleAnswerOnClick(answer.isCorrect)}>{answer.text}</button>
                     ))}
+
                 </div>)}
         </>
     );

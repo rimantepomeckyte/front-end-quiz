@@ -11,9 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e94bf5b-ccdc-4017-8848-759a505b188f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProgressBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quiz1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quiz1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../udemy-learning" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -56,7 +60,8 @@
       <updated>1610967407792</updated>
       <workItem from="1610967408919" duration="19514000" />
       <workItem from="1611156119725" duration="10065000" />
-      <workItem from="1611226112048" duration="6883000" />
+      <workItem from="1611226112048" duration="8633000" />
+      <workItem from="1611336201022" duration="10592000" />
     </task>
     <servers />
   </component>
@@ -84,10 +89,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611173543578" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1611005320904">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1611407566857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611005320904" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611407566857" />
     <state x="236" y="6" key="SettingsEditor" timestamp="1611002634818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

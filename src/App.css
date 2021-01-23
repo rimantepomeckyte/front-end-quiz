@@ -28,3 +28,42 @@ body {
 .question-box{
     font-size: 24px;
 }
+/*progressbar*/
+
+.progress-wrapper .progress-point {
+
+    float: left;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #f7f7f7;
+    border-radius: 30px;
+    box-shadow: 0 1px 1px #e0e0e0;
+}
+
+/* wrong: #f06755;*/
+
+/* right #a4c88d;*/
+
+.progress-wrapper .progress-waypoint {
+    float: left;
+    width: 27px;
+    height: 3px;
+    background-color: #ffffff;
+    position: relative;
+    top: 11px;
+    border-bottom: 1px solid #e0e0e0;
+}
+/*.progress-wrapper .progress-point i {
+    display: none;
+    font-size: 28px;
+}*/
+/*.progress-wrapper .progress-point.wrong .fa-close {
+    display: block;
+    padding: 12px 14px;
+    color: #444;
+}*/
+/*.progress-wrapper .progress-point.right .fa-check {
+    display: block;
+    padding: 12px 11px;
+    color: #444;
+}*/
