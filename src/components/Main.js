@@ -17,7 +17,7 @@ const Main = () => {
     const handleAnswerOnClick = (isCorrect) => {
         if (isCorrect === true) {
             setResult(result + 1);
-            setColor("#a4c88d");
+            setColor( "#a4c88d");
         }else{
             setColor( "#f06755");
         }

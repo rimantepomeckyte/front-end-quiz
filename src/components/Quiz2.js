@@ -20,8 +20,8 @@ const Quiz2 = ({result2, currentQuestion2, handleAnswerOnClick2, showResult2}) =
                     <hr className="mt-0"/>
                     <div
                         className="mb-2 row mx-2 mb-4 font-weight-bolder question-box">{questions2[currentQuestion2].question}</div>
-                    {questions2[currentQuestion2].answers.map(answer => (
-                        <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0"
+                    {questions2[currentQuestion2].answers.map((answer,index) => (
+                        <button key={index} className="row mx-2 p-2 mb-3 answer-box w-100 border-0"
                                 onClick={() => handleAnswerOnClick2(answer.isCorrect)}>{answer.text}</button>
                     ))}
                 </div>)}

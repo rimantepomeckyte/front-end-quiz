@@ -1,8 +1,8 @@
 import React from 'react';
 import {questions1} from "../data/questions";
-import ProgressBar from "./ProgressBar";
 
-const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick, setColor}) => {
+
+const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
 
     return (
         <>
@@ -22,8 +22,8 @@ const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick, setCol
                     <hr className="mt-0"/>
                     <div
                         className="mb-2 row mx-2 mb-4 font-weight-bolder question-box">{questions1[currentQuestion].question}</div>
-                    {questions1[currentQuestion].answers.map(answer => (
-                        <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0"
+                    {questions1[currentQuestion].answers.map((answer, index) => (
+                        <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0" key={index}
                                 onClick={() => handleAnswerOnClick(answer.isCorrect)}>{answer.text}</button>
                     ))}
 
