@@ -13,8 +13,10 @@
     <list default="true" id="4e94bf5b-ccdc-4017-8848-759a505b188f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Quiz1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Quiz1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
       <workItem from="1611336201022" duration="12167000" />
       <workItem from="1611426788894" duration="2930000" />
       <workItem from="1611480659893" duration="2535000" />
+      <workItem from="1611504657896" duration="1696000" />
     </task>
     <servers />
   </component>
@@ -92,6 +95,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611407566857" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1611505155136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611505155136" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1611505155134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611505155134" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1611505155134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611505155134" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1611505155134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611505155134" />
     <state x="236" y="6" key="SettingsEditor" timestamp="1611002634818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

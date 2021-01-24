@@ -1,12 +1,11 @@
 import React from 'react';
-import {questions1} from "../data/questions";
 
 const ProgressBar = ({bubbles, color}) => {
 
     return (
         <div className="progress-wrapper py-4 d-flex justify-content-center">
             {bubbles.map(bubble => (<div key={bubble.id} >
-                <div className="progress progress-point" id={bubble.id} style={{backgroundColor: color}}></div>
+                <div className="progress progress-point" id={bubble.id} style={{backgroundColor: "#e6e6e6"}}></div>
                 <div className="progress-waypoint"></div>
             </div>
                 ))}

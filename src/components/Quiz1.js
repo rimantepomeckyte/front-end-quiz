@@ -26,7 +26,6 @@ const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
                         <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0" key={index}
                                 onClick={() => handleAnswerOnClick(answer.isCorrect, questions1[currentQuestion].id)}>{answer.text}</button>
                     ))}
-
                 </div>)}
 
         </>
