@@ -28,6 +28,7 @@ const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
                     ))}
 
                 </div>)}
+
         </>
     );
 };

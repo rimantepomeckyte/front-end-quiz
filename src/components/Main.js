@@ -14,12 +14,27 @@ const Main = () => {
     const [result, setResult] = useState(0);
     const [color, setColor] = useState("#e6e6e6");
 
+    const bubbles = [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}]
+    /* const createDiv = () => {
+         let div = [];
+         for (let i = 1; i < 21; i++) {
+             div.push(<div key={i}>
+                 <div  className="progress progress-point" style={{backgroundColor: color}}></div>
+                 <div className="progress-waypoint"></div>
+             </div>)
+         }
+         return div;
+         //console.log(div);
+     }*/
+
     const handleAnswerOnClick = (isCorrect) => {
+        console.log(bubbles);
         if (isCorrect === true) {
             setResult(result + 1);
-            setColor( "#a4c88d");
-        }else{
-            setColor( "#f06755");
+           // if (questions1[currentQuestion].id ===)
+                setColor("#a4c88d");
+        } else {
+            setColor("#f06755");
         }
         const nextQuestion = currentQuestion + 1;
         if (nextQuestion < questions1.length) {
@@ -53,7 +68,7 @@ const Main = () => {
                     <Route path="/front-end-quiz1">
                         <Quiz1 result={result} showResult={showResult} currentQuestion={currentQuestion}
                                handleAnswerOnClick={handleAnswerOnClick}/>
-                        <ProgressBar color={color} />
+                        <ProgressBar bubbles={bubbles} color={color}/>
                     </Route>
                     <Route path="/front-end-quiz2">
                         <Quiz2 result2={result2} showResult2={showResult2} currentQuestion2={currentQuestion2}
