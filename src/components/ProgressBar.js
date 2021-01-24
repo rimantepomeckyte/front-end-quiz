@@ -6,7 +6,7 @@ const ProgressBar = ({bubbles, color}) => {
     return (
         <div className="progress-wrapper py-4 d-flex justify-content-center">
             {bubbles.map(bubble => (<div key={bubble.id} >
-                <div className="progress progress-point" style={{backgroundColor: color}}></div>
+                <div className="progress progress-point" id={bubble.id} style={{backgroundColor: color}}></div>
                 <div className="progress-waypoint"></div>
             </div>
                 ))}

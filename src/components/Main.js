@@ -12,9 +12,10 @@ const Main = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showResult, setShowResult] = useState(false);
     const [result, setResult] = useState(0);
+    //State spalva vistiek gali buti naudojama kaip "Default" spalva todel ja galima palikti
     const [color, setColor] = useState("#e6e6e6");
 
-    const bubbles = [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}]
+    const bubbles = [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}, {id: 6}, {id: 7}, {id: 8}, {id: 9}, {id: 10}, {id: 11}, {id: 12}, {id: 13}, {id: 14}, {id: 15}, {id: 16}, {id: 17}, {id: 18}, {id: 19}, {id: 20}]
     /* const createDiv = () => {
          let div = [];
          for (let i = 1; i < 21; i++) {
@@ -27,14 +28,17 @@ const Main = () => {
          //console.log(div);
      }*/
 
-    const handleAnswerOnClick = (isCorrect) => {
+    const handleAnswerOnClick = (isCorrect, id) => {
         console.log(bubbles);
         if (isCorrect === true) {
             setResult(result + 1);
            // if (questions1[currentQuestion].id ===)
-                setColor("#a4c88d");
+           //Vietoj SetColor pakeiciame individualaus burbulo spalva, kadangi su SetColor pasikeicia visas burbulu "Mapas"
+           let bubble = document.getElementById(id);
+           bubble.style.backgroundColor="green";
         } else {
-            setColor("#f06755");
+            let bubble = document.getElementById(id);
+                bubble.style.backgroundColor="red";
         }
         const nextQuestion = currentQuestion + 1;
         if (nextQuestion < questions1.length) {
