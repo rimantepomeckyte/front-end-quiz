@@ -215,12 +215,9 @@ export const questions1 =[
             {text: "$spalva string", isCorrect: false},
             {text: "$spalva", isCorrect: true}
         ]
-    }
-]
-
-export const questions2 = [
+    },
     {
-        id: 1,
+        id: 21,
         question: "HTML tai",
         answers: [
             {text: "Programavimo kalba tinklapio interaktyvumui kurti", isCorrect: false},
@@ -229,7 +226,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 2,
+        id: 22,
         question: "Kuris kodas teisingai aprašo HTML lentelės eilutę?",
         answers: [
             {text: "<tr><td>Vardas</td><td>Pavardė</td><td>Telefonas></td></tr>", isCorrect: true},
@@ -238,7 +235,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 3,
+        id: 23,
         question: "Koks HTML elementas aprašo tinklapio bloką?",
         answers: [
             {text: "<span>", isCorrect: false},
@@ -250,7 +247,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 4,
+        id: 24,
         question: "Koks CSS matavimo vienetas naudojamas, kad HTML blokas prisitaikytų prie ekrano pločio?",
         answers: [
             {text: "px", isCorrect: false},
@@ -259,7 +256,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 5,
+        id: 25,
         question: "Kaip priskirti nav bloke sąrašo būdu aprašytas nuorodas kintamajam,kurio pavadinimas nuorodos?",
         answers: [
             {text: "var nuorodos = document.querySelector('nav nuorodos');", isCorrect: false},
@@ -270,7 +267,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 6,
+        id: 26,
         question: "Kurie iš kintamųjų yra masyvai?",
         answers: [
             {text: "var pastraipos = document.querySelector('p');", isCorrect: false},
@@ -281,7 +278,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 7,
+        id: 27,
         question: "Kaip sukurti naują li elementą esančiame ul elemente, kuris turi klasę pageidavimai?",
         answers: [
             {text: "var list = document.querySelector('ul.pageidavimai'); var listItem = document.create('li'); list.appendChild(listItem);", isCorrect: false},
@@ -291,7 +288,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 8,
+        id: 28,
         question: "Kas yra preprocesorius?",
         answers: [
             {text: "Naujas CSS dialektas", isCorrect: false},
@@ -301,7 +298,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 9,
+        id: 29,
         question: "Pažymėkite, kuris iš pateiktų variantų nėra TVS",
         answers: [
             {text: "WordPress", isCorrect: false},
@@ -311,7 +308,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 10,
+        id: 30,
         question: "Kuris iš pavyzdžių yra arow funkciją",
         answers: [
             {text: "function (a, b){\n" +
@@ -323,7 +320,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 11,
+        id: 31,
         question: "let kiekis = 10;  \n" +
             "console.log(kiekis++); \n" +
             "Ką išves konsolėje?",
@@ -336,7 +333,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 12,
+        id: 32,
         question: "Ką matysime konsolėje užrašius šį kodą: \n" +
             "let foto = ['Overlay', 'Overlay1', 'Overlay2', 'Overlay3'];\n" +
             "let naujas = foto;\n" +
@@ -350,7 +347,7 @@ export const questions2 = [
         ]
     },
     {
-        id: 13,
+        id: 33,
         question: "Ką atspausdins konsolėje : \n" +
             "function labas(a) {    \n" +
             "return a;\n" +

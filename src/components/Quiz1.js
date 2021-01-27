@@ -20,10 +20,10 @@ const Quiz1 = ({showResult, currentQuestion, result, handleAnswerOnClick}) => {
                     <div
                         className="question-card-top">Klausimas {questions1[currentQuestion].id} iš {questions1.length}</div>
                     <hr className="mt-0"/>
-                    <div
+                    <div id="question"
                         className="mb-2 row mx-2 mb-4 font-weight-bolder question-box">{questions1[currentQuestion].question}</div>
                     {questions1[currentQuestion].answers.map((answer, index) => (
-                        <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0" key={index}
+                        <button className="row mx-2 p-2 mb-3 answer-box w-100 border-0 klase" key={index}
                                 onClick={() => handleAnswerOnClick(answer.isCorrect, questions1[currentQuestion].id)}>{answer.text}</button>
                     ))}
                 </div>)}
